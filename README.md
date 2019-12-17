@@ -10,11 +10,11 @@ Agenda:
 
 3. Modeling:
 
-3.1. Regression
+  3.1. Regression
 
-3.2. Classification
+  3.2. Classification
 
-3.3. Clustering
+  3.3. Clustering
 
 4. Limitation and Challenges
 
