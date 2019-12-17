@@ -6,7 +6,7 @@ Agenda:
 
 1. Exploratory Data Analysis and Visualization
 
-2.Feature Engineering
+2. Feature Engineering
 
 3. Modeling:
 
