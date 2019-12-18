@@ -37,7 +37,7 @@ We also tried to classify passwords based on their strength (Weak, Medium or Str
   #### 3.3. Clustering
   We tried to cluster passwords together using kmeans and DBScan. 
 
-4. Limitation and Challenges
+### 4. Limitation and Challenges
 * 1. The mentioned sources are aggregated from various sources and are by no means complete
 
 * 2. Old datasets with no complex password requirement
