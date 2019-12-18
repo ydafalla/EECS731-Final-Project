@@ -20,7 +20,7 @@ We added the following features to our dataframe:
 * Upper_count, lower_count, numeric_count
 * alphabet_count, specialchar_count
 * Password Source (yahoo, hotmailand Netflix)
-
+* We also defined a score from 1-5 and added it to the dataset so that each password would have a score from 1-5.
 ### 3. Modeling:
 
 #### 3.1. Regression
