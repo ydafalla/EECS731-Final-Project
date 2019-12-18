@@ -24,9 +24,9 @@ We added the following features to our dataframe:
 ### 3. Modeling:
 
 #### 3.1. Regression
-  We did some regression analysis in order to predict the password score given the other attributes as features.
-How good are models in predicting the relation between the features we generated and the target/independent variable “SCORE” of a password?
-We used linear regression, logistic regression and random forest and below is a comparison between the mean squared error for the different models.
+ * We did some regression analysis in order to predict the password score given the other attributes as features.
+* How good are models in predicting the relation between the features we generated and the target/independent variable “SCORE” of a password?
+* We used linear regression, logistic regression and random forest and below is a comparison between the mean squared error for the different models.
 ![Model_Comparison](Pics/regress.PNG)
   #### 3.2. Classification
 For classification we tried to classify the passwords based on their source (hotmail, netflix or yahoo). We used random forest and support vector machine for building our classification models. 
@@ -35,9 +35,19 @@ Below is a result for using the random forest classifier trying to find the sour
 We also tried to classify passwords based on their strength (Weak, Medium or Strong).
 
   #### 3.3. Clustering
+  We tried to cluster passwords together using kmeans and DBScan. 
 
 4. Limitation and Challenges
+* 1. The mentioned sources are aggregated from various sources and are by no means complete
 
-5. Conclusion
+* 2. Old datasets with no complex password requirement
+* Yahoo breach happened in 2013
+* Netflix was in 2015
+* Hotmail 2009
+* Bank Passwords
+
+* 3. Maybe consider other data sources
+Movies, Quotes, Short phrases and Email addresses
+ * 4. There was a lot of challenges regarding the time it takes to run the algorithms. 
 
 
